@@ -4,6 +4,8 @@ Catppuccin Mocha paletiyle hazırlanmış Hyprland config koleksiyonu
 
 **LÜTFEN CONFİGLERİ KULLANMAYINIZ. BU DEPO HÂLÂ TAMAMLANMAMIŞDIR. STABİL DEĞİLDİR VE HATALAR OLABİLİR.**
 
+![Ekran Görüntüsü](main-hyprshot.png)
+
 ## Kurulum
 **Gerekli Paketler:**
 *Dağıtımdan dağıtıma değişir. Her paket için araştırma yapınız.*
