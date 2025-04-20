@@ -11,7 +11,7 @@ Catppuccin Mocha paletiyle hazırlanmış Hyprland config koleksiyonu
 **Gerekli Paketler:**
 *Dağıtımdan dağıtıma değişir. Her paket için araştırma yapınız.*
 
-    hyprland, waybar, kitty, thunar, qt5ct, qt6ct, kvantum, hyprshot, wofi, xdg-desktop-portal-hyprland, btop, swww
+    hyprland, waybar, kitty, nautilus, qt5ct, qt6ct, kvantum, hyprshot, wofi, xdg-desktop-portal-hyprland, btop, swww
 
 **Gerekli fontlar:**
 [Lexend](https://fonts.google.com/specimen/Lexend)
