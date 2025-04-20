@@ -45,7 +45,7 @@ window#waybar {
 #tray,
 #memory,
 #window,
-#mpris {
+#bluetooth {
   padding: 0.3rem 0.6rem;
   margin: 0.4rem 0.25rem;
   border-radius: 6px;
@@ -56,6 +56,11 @@ window#waybar {
 #custom-sep {
   padding: 0px;
   color: #1e1e2e;
+}
+
+#bluetooth {
+  background-color: #1e1e2e;
+  color: #cba6f7;
 }
 
 window#waybar.empty #window {
