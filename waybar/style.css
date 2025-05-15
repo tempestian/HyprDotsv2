@@ -1,0 +1,172 @@
+/* Waybar Style with Catppuccin Mocha Theme
+   Using Lexend and Font Awesome fonts */
+
+/* Global styling */
+* {
+  font-family: "Lexend", "Font Awesome 6 Free", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  border-radius: 0;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+/* Main bar styling */
+window#waybar {
+  background-color: rgba(24, 24, 37, 0.9);  /* Mocha mantle with slight transparency */
+  color: #cdd6f4;  /* Mocha text */
+  border-bottom: 2px solid #cba6f7;  /* Mocha mauve */
+}
+
+/* Base module styling */
+#clock,
+#pulseaudio,
+#cpu,
+#tray,
+#custom-waydroid,
+#memory,
+#window,
+#bluetooth,
+#mpris,
+#custom-wifi,
+#custom-spotify,
+#custom-apps {
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+  background-color: #1e1e2e;  /* Mocha base */
+  color: #cba6f7;  /* Mocha mauve */
+  border: 1px solid #313244;  /* Mocha surface0 */
+}
+
+/* Individual module styling */
+#custom-apps {
+  color: #cba6f7;  /* Mocha mauve */
+  background-color: #1e1e2e;  /* Mocha base */
+  font-size: 14px;
+}
+
+#custom-sep {
+  padding: 0px;
+  color: #1e1e2e;  /* Mocha base */
+}
+
+#bluetooth {
+  background-color: #1e1e2e;  /* Mocha base */
+  color: #cba6f7;  /* Mocha mauve */
+}
+
+#bluetooth.disconnected {
+  color: #a6adc8;  /* Mocha subtext0 */
+}
+
+#cpu {
+  color: #cba6f7;  /* Mocha mauve */
+}
+
+#cpu.critical {
+  background-color: #f38ba8;  /* Mocha red */
+  color: #11111b;  /* Mocha crust */
+}
+
+#memory {
+  color: #cba6f7;  /* Mocha mauve */
+}
+
+#memory.critical {
+  background-color: #f38ba8;  /* Mocha red */
+  color: #11111b;  /* Mocha crust */
+}
+
+#tray {
+  color: #cba6f7;  /* Mocha mauve */
+}
+
+#tray > .passive {
+  -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+  -gtk-icon-effect: highlight;
+  background-color: #f38ba8;  /* Mocha red */
+}
+
+#clock {
+  color: #cba6f7;  /* Mocha mauve */
+  font-weight: bold;
+}
+
+#clock.simpleclock {
+  color: #cba6f7;  /* Mocha mauve */
+}
+
+#window {
+  color: #cba6f7;  /* Mocha mauve */
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#pulseaudio {
+  color: #cba6f7;  /* Mocha mauve */
+}
+
+#pulseaudio.muted {
+  color: #a6adc8;  /* Mocha subtext0 */
+  background-color: #313244;  /* Mocha surface0 */
+}
+
+#mpris {
+  color: #cba6f7;  /* Mocha mauve */
+  padding: 0 10px;
+}
+
+#mpris.paused {
+  color: #cdd6f4;  /* Mocha text */
+  background-color: #313244;  /* Mocha surface0 */
+}
+
+#custom-spotify {
+  color: #cba6f7;  /* Mocha mauve */
+  padding: 0 10px;
+}
+
+#custom-wifi {
+  color: #cba6f7;  /* Mocha mauve */
+}
+
+#custom-wifi.disconnected {
+  color: #a6adc8;  /* Mocha subtext0 */
+  background-color: #313244;  /* Mocha surface0 */
+}
+
+#custom-waydroid {
+  color: #cba6f7;  /* Mocha mauve */
+}
+
+/* Tooltips styling */
+tooltip {
+  background-color: #1e1e2e;  /* Mocha base */
+  border: 2px solid #cba6f7;  /* Mocha mauve */
+  border-radius: 8px;
+}
+
+tooltip label {
+  color: #cdd6f4;  /* Mocha text */
+}
+
+/* Hover effects */
+#clock:hover,
+#cpu:hover,
+#memory:hover,
+#pulseaudio:hover,
+#tray:hover,
+#bluetooth:hover,
+#mpris:hover,
+#custom-wifi:hover,
+#custom-spotify:hover,
+#custom-waydroid:hover {
+  background-color: #313244;  /* Mocha surface0 */
+  border-bottom: 2px solid #cba6f7;  /* Mocha mauve */
+}
