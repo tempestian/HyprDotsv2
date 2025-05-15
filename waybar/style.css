@@ -19,6 +19,41 @@ window#waybar {
   border-bottom: 2px solid #cba6f7;  /* Mocha mauve */
 }
 
+/* Workspaces styling */
+#workspaces button {
+  padding: 0 5px;
+  margin: 0.4rem 0.25rem;
+  background-color: #313244;  /* Mocha surface0 */
+  color: #cdd6f4;  /* Mocha text */
+  border-radius: 6px;
+  border: 1px solid #45475a;  /* Mocha surface1 */
+}
+
+#workspaces button:hover {
+  background: #585b70;  /* Mocha surface2 */
+  color: #cdd6f4;  /* Mocha text */
+  border-bottom: 2px solid #cba6f7;  /* Mocha mauve */
+}
+
+#workspaces button.active {
+  background-color: #cba6f7;  /* Mocha mauve */
+  color: #1e1e2e;  /* Mocha base */
+  border: none;
+  box-shadow: inset 0 -2px #f5c2e7;  /* Mocha pink */
+}
+
+#workspaces button.urgent {
+  background-color: #f38ba8;  /* Mocha red */
+  color: #11111b;  /* Mocha crust */
+}
+
+#workspaces button.empty {
+  background-color: #181825;  /* Mocha mantle */
+  color: #6c7086;  /* Mocha overlay0 */
+  border: 1px solid #313244;  /* Mocha surface0 */
+}
+
+
 /* Base module styling */
 #clock,
 #pulseaudio,
